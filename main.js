@@ -47,7 +47,6 @@ function erase(eraseWords) {
     }
     result.replace(eraseWordsArr[i], emptyStr);
   }
-  // result.verbs().addClass('verb');
 
   document.getElementById('result-text').innerHTML = result.text();
 }
