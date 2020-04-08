@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Erasure</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/edb2f9c366.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div id="container">
+
+    <h2><i class="fas fa-eraser"></i> Erasure</h2>
+
+    <h5 id="source-label">Source:</h5>
+    <input type="file" id="btn-upload" name="files[]" multiple />
+    <label for="btn-upload" class="btn-upload-label">
+    <i class="fas fa-file-upload"></i> Upload File
+    </label>
+    <div contenteditable="true" id="source-text">Upload a file or click to edit this text</div>
+
+    <p>Enter a word or a comma-separated group of words and click ERASE.</p>
+    <textarea id="erase-text" placeholder="the, in, of"></textarea>
+    <button id="btn-erase"><i class="fas fa-eraser"></i> Erase</button>
+    <button id="btn-reset"><i class="fas fa-redo"></i> Reset</button>
+
+    <h5>Result:</h5>
+    <div id="result-text"></div>
+
+	</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" charset="utf-8"></script>
+<script src="https://unpkg.com/compromise@latest/builds/compromise.min.js"></script>
+<script src="main.js" charset="utf-8"></script>
+
+</body>
+</html>
