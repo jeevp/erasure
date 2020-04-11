@@ -1,10 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
-  font-family: 'IBM Plex Mono';
+  font-family: 'Roboto Mono';
   padding: 0;
   margin: 0;
 }
@@ -24,7 +27,6 @@ h2 {
 }
 
 h5 {
-  text-transform: uppercase;
   padding-top: 10px;
   padding-bottom: 5px;
   border-bottom: 2px solid #b400ff;
