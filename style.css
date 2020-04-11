@@ -75,6 +75,7 @@ button {
   vertical-align: top;
   font-weight: 800;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 button:hover {
@@ -90,8 +91,13 @@ textarea {
   font-family: inherit;
 	border: 2px solid lightGray;
   border-radius: 5px;
-	padding: 5px 10px 10px 10px;
   display: block;
+  overflow-x: hidden;
+}
+
+textarea:focus {
+  outline-style: solid;
+  outline-width: 2px;
 }
 
 #source-text {
@@ -109,12 +115,12 @@ textarea {
 
 #erase-text {
   display: inline-block;
-  width: 300px;
+  width: 100%;
   height: 1em;
   font-family: inherit;
   font-size: 1em;
 	padding: 5px 10px 10px 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 textarea:focus {

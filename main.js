@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+$('textarea').autoResize();
+
 var sourceText = '';
 var sourceDoc;
 
